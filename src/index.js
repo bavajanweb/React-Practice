@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Navbar from './Header'
-import MainContent from './Main'
-import Jokes from './jokes'
+
+import App from "./App"
+import Cards from './cards'
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    {/* <Navbar/> */}
-    {/* <MainContent/> */}
+    <App/>
+    <Cards/>
   </React.StrictMode>
 );
 

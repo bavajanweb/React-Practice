@@ -1,17 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Jokes from './jokes';
-import jokesData from './jokesData';
-// import Jokes from './jokes'
+import './index.css'
+import globe from './images/globe.png'
 
 export default function App() {
-    const element = jokesData.map(Joke =>{
-        return <Jokes setup = {Joke.setup} punchline = {Joke.punchline}/>
-    })
+    
     return (
-        <div>
-            {element}
-        </div>
+        <div className='navbar'>
+        <img src={
+            globe
+        }/>
+        <h5>my travel journel</h5>
+    </div>
 
     )
 
