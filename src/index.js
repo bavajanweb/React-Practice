@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Navbar from './Header'
+import MainContent from './Main'
+import Jokes from './jokes'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* <Navbar/> */}
+    {/* <MainContent/> */}
   </React.StrictMode>
 );
 
